@@ -1,0 +1,28 @@
+{
+  "name": "gene-junior-interviews",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Generation-Esports/junior-interview-project.git"
+  },
+  "author": "Enrique Carpintero <enrique@generationesports.com>",
+  "bugs": {
+    "url": "https://github.com/Generation-Esports/junior-interview-project/issues"
+  },
+  "homepage": "https://github.com/Generation-Esports/junior-interview-project#readme",
+  "devDependencies": {
+    "@types/express": "^4.16.1",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4"
+  }
+}

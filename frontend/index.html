@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Generation Esports Junior Frontend Interview</title>
+  </head>
+  <body>
+    <table id="table">
+      <tr>
+        <th>ID</th>
+        <th>Setup</th>
+        <th>Punchline</th>
+      </tr>
+    </table>
+    <button type="button" onclick="renderJokes()">Get Jokes</button>
+  </body>
+
+  <script>
+    async function getJokes() {
+      // write code here to make request to backend to GET jokes
+    }
+
+    async function renderJokes() {
+      const jokes = await getJokes();
+
+      const table = document.getElementById("table");
+
+      jokes.forEach((data) => {
+        const row = table.insertRow(-1);
+        row.innerHTML = `
+        <td>${data.id}</td>
+        <td>${data.setup}</td>
+        <td>${data.punchLine}</td>
+        `;
+      });
+    }
+  </script>
+</html>
