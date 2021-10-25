@@ -1,6 +1,6 @@
-# Generation Esports Junior Backend Interview
+# Generation Esports Junior Interview
 
-Welcome to the final Generation Esports coding interview for the Junior Backend Engineer position!
+Welcome to the final Generation Esports coding interview for the Junior Engineer position!
 
 This repo contains the following Tech Stack:
 
@@ -13,6 +13,7 @@ This repo contains the following Tech Stack:
 
 0. Clone the front-end and back-end repositories using Git and create a new branch from master on each of the repos.
 1. Fix any errors with the existing code and successfully display the list of hard coded jokes on the front-end.
-2. Build out another endpoint to get random joke from array.
+2. Build out another endpoint to get random joke from the array and display it on the front-end as a javascript alert using the title "Joke of the Day!".
 3. Rather than having to click a button to load the jokes, change the code to load the jokes when the page loads.
 4. If you have an array of jokes, what happens if you have a duplicate joke? What data structure prevents duplicate elements.
+5. Create a model/interface for the joke object on the backend.
